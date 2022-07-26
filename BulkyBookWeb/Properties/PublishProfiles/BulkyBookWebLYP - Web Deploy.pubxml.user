@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALClDkTKvT0CcyOzgUv6nJgAAAAACAAAAAAAQZgAAAAEAACAAAAD4KnJTBz4ZJcpsqJblFJ9cXWrBcD7zJWB41TpnGt4cZgAAAAAOgAAAAAIAACAAAAA5+58Wdo8lZRSsknexHJh+5U6b2XnYTacWKLOStinl5oAAAABnkmwynOBfCb4Hbe90toKLibazcFnueWyssQAxc9Ro6jPVg7sg/xZoVei+IsfE8PW4iS7eydbMcUfZj78X43/6jBaULeUNhgSd+MLe3tgUJMFodW98bSsAiWHWA/LxrQUIcYRKVof9HMZShuLFDohhw6moea73J2p5KWJVlRL+sEAAAABR/eX38AOVYKI2LfC3f9G29OoAnR8MDyvhZKl+njZU3bXbmMS80GsDMg1W0CZFYnFGF8hNfg8+E5o6miINl2dB</EncryptedPassword>
+    <History>True|2022-07-25T22:43:59.8932588Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:asynclyp.database.windows.net,1433%3bInitial Catalog=myFirstAzureDB%3bPersist Security Info=False%3bUser ID=asynclyp%3bPassword=Py08181211..%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBookWeb.Data.ApplicationDbContext">
+      <Value>Server=tcp:asynclyp.database.windows.net,1433%3bInitial Catalog=myFirstAzureDB%3bPersist Security Info=False%3bUser ID=asynclyp%3bPassword=Py08181211..%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
