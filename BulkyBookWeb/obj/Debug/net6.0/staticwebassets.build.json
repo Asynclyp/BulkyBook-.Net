@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CdfzRNMj65wKXqQxwsrT5908qH5qeXl152tBU02aO1M=",
+  "Hash": "8hsbWavd7Pd4foxr7HaRxpBEgfoZWf0wDx0L67NCamc=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ldzlyp\\Desktop\\CS Projects\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\2aa60444-23a0-4dd0-ac2f-c9409d152ea1.png",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ldzlyp\\Desktop\\CS Projects\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/2aa60444-23a0-4dd0-ac2f-c9409d152ea1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\2aa60444-23a0-4dd0-ac2f-c9409d152ea1.png"
+    },
+    {
+      "Identity": "C:\\Users\\ldzlyp\\Desktop\\CS Projects\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\89cc0009-ecb5-49bc-88d4-f625910fd11f.png",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ldzlyp\\Desktop\\CS Projects\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/89cc0009-ecb5-49bc-88d4-f625910fd11f.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\89cc0009-ecb5-49bc-88d4-f625910fd11f.png"
     },
     {
       "Identity": "C:\\Users\\ldzlyp\\Desktop\\CS Projects\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\ab27a0a4-3888-4b24-8423-cf94e8352f3d.png",
