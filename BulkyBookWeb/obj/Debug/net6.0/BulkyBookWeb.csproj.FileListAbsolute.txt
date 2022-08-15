@@ -564,3 +564,5 @@ C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Micr
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Utility.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Utility.pdb
