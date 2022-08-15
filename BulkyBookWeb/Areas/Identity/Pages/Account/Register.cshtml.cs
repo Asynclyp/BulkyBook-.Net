@@ -120,8 +120,10 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             public string? Role { get; set; }
             public int? CompanyId { get; set; }
             [ValidateNever]
+            [BindProperty]
             public IEnumerable<SelectListItem> RoleList { get; set; }
             [ValidateNever]
+            [BindProperty]
             public IEnumerable<SelectListItem> CompanyList { get; set; }
         }
 
@@ -157,6 +159,7 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+            
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
@@ -169,6 +172,7 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
                 user.PostalCode = Input.PostalCode;
                 user.Name = Input.Name;
                 user.PhoneNumber = Input.PhoneNumber;
+                
                 if(Input.Role == SD.Role_User_Comp)
                 {
                     user.CompanyId = Input.CompanyId;
@@ -214,7 +218,14 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
+                
+                    
             }
+
+            //IEnumerable<SelectListItem> roleList = Input.RoleList;
+            //IEnumerable<SelectListItem> companyList = Input.CompanyList;
+            //Input.RoleList = roleList;
+            //Input.CompanyList = companyList;
 
             // If we got this far, something failed, redisplay form
             return Page();
