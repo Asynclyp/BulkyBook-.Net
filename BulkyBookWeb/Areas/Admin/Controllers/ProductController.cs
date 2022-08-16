@@ -91,6 +91,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
                     }
                     obj.Product.ImageUrl = @"\images\products\" + fileName + extension;
                 }
+
                 if(obj.Product.Id == 0)
                 {
                     _unitOfWork.Product.Add(obj.Product);
