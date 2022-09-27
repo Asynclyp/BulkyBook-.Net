@@ -113,6 +113,10 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
 
 
 
+        //OrderConfirmation
+
+
+
         public IActionResult Plus(int cartId)
         {
             var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(x => x.Id == cartId);
