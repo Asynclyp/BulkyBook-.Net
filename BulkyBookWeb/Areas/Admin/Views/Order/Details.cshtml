@@ -217,12 +217,17 @@
 							{
 								if(Model.OrderHeader.OrderStatus == SD.StatusPending)
 								{
-									<input type="submit" class="btn btn-primary form-control my-1" value="Start Processing" />
+									<input type="submit" asp-action="ApproveOrder" class="btn btn-primary form-control my-1" value="Approve Order" />
+								}
+								if(Model.OrderHeader.OrderStatus == SD.StatusApproved)
+								{
+									<input type="submit" asp-action="StartProcessing" class="btn btn-primary form-control my-1" value="Start Processing" />
 								}
 								if(Model.OrderHeader.OrderStatus == SD.StatusInProcess)
 								{
-									<input type="submit" class="btn btn-primary form-control my-1" value="Ship Order" />
+									<input type="submit" asp-action="ShipOrder" class="btn btn-primary form-control my-1" value="Ship Order" />
 								}
+								
 
 								<input type="submit" class="btn btn-success form-control my-1" value="Pay Now" readonly />
 
