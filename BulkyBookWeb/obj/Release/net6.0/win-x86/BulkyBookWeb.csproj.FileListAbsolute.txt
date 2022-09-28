@@ -868,7 +868,6 @@ C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\wi
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\hostfxr.dll
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\hostpolicy.dll
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\mscordaccore.dll
-C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\mscordaccore_x86_x86_6.0.722.32202.dll
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\mscordbi.dll
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\mscorrc.dll
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\msquic.dll
@@ -892,3 +891,14 @@ C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\obj\Release\net6.0\wi
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\obj\Release\net6.0\win-x86\BulkyBookWeb.pdb
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\obj\Release\net6.0\win-x86\BulkyBookWeb.genruntimeconfig.cache
 C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\obj\Release\net6.0\win-x86\ref\BulkyBookWeb.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\Newtonsoft.Json.Bson.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\mscordaccore_x86_x86_6.0.922.41905.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\BulkyBook.DataAccess.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\BulkyBook.Models.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\BulkyBook.Utility.dll
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\BulkyBook.DataAccess.pdb
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\BulkyBook.Utility.pdb
+C:\Users\ldzlyp\Desktop\CS Projects\BulkyBook\BulkyBookWeb\bin\Release\net6.0\win-x86\BulkyBook.Models.pdb

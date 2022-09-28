@@ -3,7 +3,4 @@
   <parameter name="IIS Web Application Name" description="" value="BulkyBookWebLYP" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ldzlyp\\Desktop\\CS\ Projects\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\Out\\$" />
   </parameter>
-  <parameter name="BulkyBookWeb.Data.ApplicationDbContext" description="" value="Server=tcp:asynclyp.database.windows.net,1433;Initial Catalog=myFirstAzureDB;Persist Security Info=False;User ID=asynclyp;Password=Py08181211..;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
-    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\ldzlyp\\Desktop\\CS\ Projects\\BulkyBook\\BulkyBookWeb\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\EFSQLScripts\\BulkyBookWeb\.Data\.ApplicationDbContext\.sql$" />
-  </parameter>
 </parameters>
