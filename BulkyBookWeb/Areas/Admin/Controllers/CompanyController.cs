@@ -4,10 +4,13 @@ using BulkyBook.Models;
 using BulkyBook.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using BulkyBook.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using BulkyBook.Utility;
 
 namespace BulkyBookWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class CompanyController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -24,11 +27,12 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
             return View();
         }
 
-        
+
 
 
 
         //GET
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         public IActionResult Upsert(int? id)
         {
             Company company = new();
@@ -51,6 +55,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
 
         //POST
         [HttpPost]
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Company obj)
         {
@@ -91,6 +96,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
 
         //POST
         [HttpDelete]
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         //[ValidateAntiForgeryToken]
         public IActionResult Delete(int? id)
         {

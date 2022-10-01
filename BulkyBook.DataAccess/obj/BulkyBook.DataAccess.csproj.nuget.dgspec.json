@@ -91,6 +91,11 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
       }
     },
     "C:\\Users\\ldzlyp\\Desktop\\CS Projects\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
@@ -159,6 +164,11 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
       }
     },
     "C:\\Users\\ldzlyp\\Desktop\\CS Projects\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
@@ -222,6 +232,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
         }
       }
     }

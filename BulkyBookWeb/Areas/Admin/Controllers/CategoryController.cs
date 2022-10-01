@@ -2,10 +2,13 @@
 using BulkyBook.DataAccess;
 using BulkyBook.Models;
 using BulkyBook.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
+using BulkyBook.Utility;
 
 namespace BulkyBookWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -22,6 +25,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
         }
 
         //GET
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         public IActionResult Create()
         {
             return View();
@@ -29,6 +33,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
 
         //POST
         [HttpPost]
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Category obj)
         {
@@ -52,6 +57,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
 
 
         //GET
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         public IActionResult Edit(int? id)
         {
             if (id == null || id == 0)
@@ -72,6 +78,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
 
         //POST
         [HttpPost]
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Category obj)
         {
@@ -94,6 +101,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
 
 
         //GET
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
@@ -114,6 +122,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
 
         //POST
         [HttpPost]
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         [ValidateAntiForgeryToken]
         public IActionResult DeletePOST(int? id)
         {
